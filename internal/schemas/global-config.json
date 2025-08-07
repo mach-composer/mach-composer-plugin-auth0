@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "required": [
+        "domain",
+        "client_id",
+        "client_secret"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "domain": {
+            "type": "string"
+        },
+        "client_id": {
+            "type": "string"
+        },
+        "client_secret": {
+            "type": "string"
+        }
+    },
+    "description": "Generic Contenful configuration."
+}
